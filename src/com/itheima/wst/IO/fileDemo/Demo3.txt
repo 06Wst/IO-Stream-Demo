@@ -1,1 +1,3 @@
-cd
+66666
+hello world
+nihao
