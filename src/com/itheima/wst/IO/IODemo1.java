@@ -26,5 +26,6 @@ public class IODemo1 {
         FileOutputStream fos4=new FileOutputStream("D:\\work space\\IODemo\\src\\com\\itheima\\wst\\IO\\fileDemo\\Demo3.txt");
         fos4.write(123);
         fos4.close();             //释放资源
+
     }
 }
