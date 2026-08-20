@@ -15,6 +15,9 @@ public class IODemo6 {
         fos1.close();
         fis1.close();*/
 
+        long start=System.currentTimeMillis();
+        System.out.println("开始时间："+start);
+
         FileInputStream fis2=new FileInputStream("D:\\work space\\IODemo\\src\\com\\itheima\\wst\\IO\\fileDemo\\Demo5.txt");
         FileOutputStream fos2=new FileOutputStream("D:\\work space\\IODemo\\src\\com\\itheima\\wst\\IO\\fileDemo\\Demo1.txt");
         int len;
@@ -33,5 +36,8 @@ public class IODemo6 {
         fos2.close();
         fis2.close();
 
+        long end=System.currentTimeMillis();
+        System.out.println("结束时间："+end);
+        System.out.println("耗时："+(end-start)+"ms");
     }
 }
